@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>Personal Account - Patreon</title>
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="styleguide.css" />
+    <link rel="stylesheet" href="personalAccountPageStyles.css" />
+  </head>
+  <body>
+    <main class="personal-account">
+      <!-- Account Information Section -->
+      <section class="account-information" aria-labelledby="account-info-title">
+        <h1 class="text-wrapper" id="account-info-title">Account Information</h1>
+        <!-- Username Field -->
+        <label class="div" for="username-input">Username</label>
+        <div class="username">
+          <input
+            class="text-wrapper-4"
+            id="username-input"
+            type="text"
+            placeholder="Enter Username"
+            aria-label="Username"
+            autocomplete="username"
+          />
+        </div>
+        <!-- Email Field -->
+        <label class="text-wrapper-2" for="email-input">Email</label>
+        <div class="email">
+          <input
+            class="text-wrapper-5"
+            id="email-input"
+            type="email"
+            placeholder="Enter Email"
+            aria-label="Email"
+            autocomplete="email"
+          />
+        </div>
+        <!-- New Password Field -->
+        <label class="text-wrapper-3" for="password-input">New Password</label>
+        <div class="password">
+          <input
+            class="text-wrapper-6"
+            id="password-input"
+            type="password"
+            placeholder="Enter Password"
+            aria-label="New Password"
+            autocomplete="new-password"
+          />
+        </div>
+        <!-- Save Button -->
+        <button class="save-button" type="button" aria-label="Save account information">
+          <span class="text-wrapper-9">Save</span>
+        </button>
+        <!-- Color Theme Toggle -->
+        <p class="text-wrapper-10">Color theme</p>
+        <div class="frame" aria-hidden="true"></div>
+        <div class="dark-mode-toggle" role="switch" aria-checked="false" aria-label="Toggle color theme" tabindex="0">
+          <div class="rectangle"></div>
+        </div>
+      </section>
+      <!-- Logo / Header -->
+      <header class="logo" role="banner">
+        <span class="text-wrapper-7">Patreon</span>
+        <img class="line" src="img/line-35.svg" alt="" role="presentation" />
+      </header>
+      <!-- Additional Username Display -->
+      <div class="div-wrapper" aria-hidden="true">
+        <span class="text-wrapper-8">Enter Username</span>
+      </div>
+      <!-- Navigation Menu -->
+      <nav class="navigation-menu" aria-label="Main navigation">
+        <img class="img" src="img/line-5.svg" alt="" role="presentation" />
+        <img class="tempimagetcfptf" src="img/tempimagetcfptf-1.png" alt="Home" />
+        <img class="loupe" src="img/loupe-1.png" alt="Search" />
+        <img class="tempimagejanjv" src="img/tempimagejan3jv-1.png" alt="Notifications" />
+        <img class="user" src="img/user-1.png" alt="User profile" />
+      </nav>
+    </main>
+  </body>
+</html>
