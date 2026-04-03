@@ -1,0 +1,44 @@
+:root {
+  --collection-1-background-color: rgba(255, 255, 255, 1);
+  --collection-1-text-color: rgba(0, 0, 0, 1);
+  --collection-1-isdarkmode: none;
+  --collection-2-isclickable: none;
+  --collection-2-isclickableaccount: none;
+  --collection-2-deskpaynowclickable: none;
+  --collection-2-deskprofileupdateclickable: none;
+  --collection-3-light: rgba(255, 255, 255, 1);
+  --collection-3-dark: rgba(0, 0, 0, 1);
+  --collection-3-deskisdarkmode: none;
+}
+
+/*
+
+To enable a theme in your HTML, simply add one of the following data attributes to an HTML element, like so:
+
+<body data-collection-1-mode="mode-1">
+    <!-- the rest of your content -->
+</body>
+
+You can apply the theme on any DOM node, not just the `body`
+
+*/
+
+[data-collection-1-mode="mode-1"] {
+  --collection-1-background-color: rgba(255, 255, 255, 1);
+  --collection-1-text-color: rgba(0, 0, 0, 1);
+}
+
+[data-collection-1-mode="mode-2"] {
+  --collection-1-background-color: rgba(0, 0, 0, 1);
+  --collection-1-text-color: rgba(255, 255, 255, 1);
+}
+
+[data-collection-3-mode="mode-1"] {
+  --collection-3-light: rgba(255, 255, 255, 1);
+  --collection-3-dark: rgba(0, 0, 0, 1);
+}
+
+[data-collection-3-mode="mode-2"] {
+  --collection-3-light: rgba(0, 0, 0, 1);
+  --collection-3-dark: rgba(255, 255, 255, 1);
+}
