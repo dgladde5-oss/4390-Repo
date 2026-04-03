@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>Payment Page</title>
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="styleguide.css" />
+    <link rel="stylesheet" href="confirmPurchasePageStyles.css" />
+  </head>
+  <body>
+    <main class="payment-page" role="main">
+      <!-- Header Section -->
+      <header class="page-header">
+        <img class="rectangle" src="img/rectangle-22.svg" alt="" aria-hidden="true" />
+        <img class="line" src="img/line-5.svg" alt="" aria-hidden="true" />
+        <div class="account-profile" role="img" aria-label="User profile picture"></div>
+        <span class="text-wrapper">User123</span>
+      </header>
+      <!-- Navigation -->
+      <nav class="page-nav" aria-label="Page navigation">
+        <a href="#" class="text-wrapper-6" aria-label="Go back">← Back</a>
+      </nav>
+      <!-- Divider -->
+      <img class="img" src="img/line-8.svg" alt="" aria-hidden="true" />
+      <!-- Payment Details Section -->
+      <section class="payment-details-section" aria-labelledby="payment-details-heading">
+        <h1 class="div" id="payment-details-heading">Payment details</h1>
+        <!-- Amount Due -->
+        <div class="amount-due-row">
+          <span class="text-wrapper-2">Amount due</span>
+          <div class="rectangle-2" role="status" aria-label="Amount due: $3">
+            <span class="text-wrapper-3">$3</span>
+          </div>
+        </div>
+        <!-- Payment Form -->
+        <form class="payment-form" novalidate aria-label="Payment information form">
+          <!-- Card Number Field -->
+          <div class="enter-card-number">
+            <label class="text-wrapper-5" for="card-number">Card number</label>
+            <input
+              id="card-number"
+              class="field-input"
+              type="text"
+              inputmode="numeric"
+              autocomplete="cc-number"
+              maxlength="19"
+              placeholder=""
+              aria-required="true"
+            />
+          </div>
+          <!-- CVV Field -->
+          <div class="enter-CVV">
+            <label class="text-wrapper-5" for="cvv">CVV</label>
+            <input
+              id="cvv"
+              class="field-input"
+              type="text"
+              inputmode="numeric"
+              autocomplete="cc-csc"
+              maxlength="4"
+              placeholder=""
+              aria-required="true"
+            />
+          </div>
+          <!-- Zip Code Field -->
+          <div class="enter-zip">
+            <label class="text-wrapper-5" for="zip-code">Zip code</label>
+            <input
+              id="zip-code"
+              class="field-input"
+              type="text"
+              inputmode="numeric"
+              autocomplete="postal-code"
+              maxlength="10"
+              placeholder=""
+              aria-required="true"
+            />
+          </div>
+          <!-- Confirm Button -->
+          <div class="payment-confirmation">
+            <div class="rectangle-3" aria-hidden="true"></div>
+            <button type="submit" class="text-wrapper-4" aria-label="Confirm payment" disabled>Confirm</button>
+          </div>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
