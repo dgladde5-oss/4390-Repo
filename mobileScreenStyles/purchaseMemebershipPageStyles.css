@@ -1,0 +1,456 @@
+.membership-plan-page {
+  background-color: var(--collection-1-background-color);
+  width: 100%;
+  min-width: 402px;
+  min-height: 874px;
+  position: relative;
+}
+
+.membership-plan-page .rectangle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 402px;
+  height: 102px;
+}
+
+.membership-plan-page .line {
+  position: absolute;
+  top: 101px;
+  left: 0;
+  width: 402px;
+  height: 1px;
+  object-fit: cover;
+}
+
+.membership-plan-page .text-wrapper {
+  position: absolute;
+  top: 68px;
+  left: 27px;
+  width: 107px;
+  font-family: "Inter-Black", Helvetica;
+  font-weight: 900;
+  color: #000000;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.membership-plan-page .account-profile {
+  position: absolute;
+  top: 10px;
+  left: 27px;
+  width: 50px;
+  height: 50px;
+  background-image: url(./img/rectangle-21.png);
+  background-size: 100% 100%;
+}
+
+.membership-plan-page .membership-tier-ALL {
+  position: absolute;
+  top: 137px;
+  left: 27px;
+  width: 347px;
+  height: 623px;
+}
+
+.membership-plan-page .membership-tiers {
+  position: absolute;
+  width: 100%;
+  height: 30.71%;
+  top: 0;
+  left: 0;
+  background-color: #1869ac;
+  border-radius: 30px;
+}
+
+.membership-plan-page .div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 20px;
+  background: linear-gradient(
+    180deg,
+    rgba(35, 213, 253, 1) 0%,
+    rgba(151, 21, 103, 1) 100%
+  );
+}
+
+.membership-plan-page .text-wrapper-2 {
+  position: absolute;
+  width: 37.81%;
+  height: 19.89%;
+  top: 8.06%;
+  left: 3.84%;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.membership-plan-page .rectangle-2 {
+  position: absolute;
+  width: 92.05%;
+  height: 28.49%;
+  top: 37.10%;
+  left: 3.84%;
+  background-color: #000000;
+  border-radius: 15px;
+}
+
+.membership-plan-page .text-wrapper-3 {
+  position: absolute;
+  width: 46.58%;
+  height: 17.20%;
+  top: 44.09%;
+  left: 26.85%;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.membership-plan-page .text-wrapper-4 {
+  position: absolute;
+  width: 69.04%;
+  height: 18.82%;
+  top: 74.87%;
+  left: 3.84%;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.membership-plan-page .membership-tiers-2 {
+  top: 34.65%;
+  position: absolute;
+  width: 100%;
+  height: 30.71%;
+  left: 0;
+  background-color: #1869ac;
+  border-radius: 20px;
+}
+
+.membership-plan-page .membership-tiers-3 {
+  top: 69.29%;
+  position: absolute;
+  width: 100%;
+  height: 30.71%;
+  left: 0;
+  background-color: #1869ac;
+  border-radius: 20px;
+}
+
+.membership-plan-page .navigation-menu {
+  position: fixed;
+  top: 795px;
+  left: 0;
+  width: 402px;
+  height: 79px;
+  background-image: url(./img/rectangle-7.svg);
+  background-size: 100% 100%;
+}
+
+.membership-plan-page .user {
+  position: absolute;
+  width: 15.42%;
+  top: 20px;
+  left: 84.58%;
+  height: 40px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.membership-plan-page .tempimagetcfptf {
+  position: absolute;
+  width: 93.53%;
+  top: 20px;
+  left: 6.47%;
+  height: 41px;
+  aspect-ratio: 0.98;
+  object-fit: cover;
+}
+
+.membership-plan-page .loupe {
+  position: absolute;
+  width: 65.92%;
+  top: 19px;
+  left: 34.08%;
+  height: 42px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.membership-plan-page .tempimagejanjv {
+  position: absolute;
+  width: 38.81%;
+  top: 18px;
+  left: 61.19%;
+  height: 42px;
+  aspect-ratio: 0.95;
+  object-fit: cover;
+}
+
+.membership-plan-page .img {
+  position: absolute;
+  width: 100%;
+  height: 101.27%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+/* =============================================
+   ORIGINAL CSS INJECTED BELOW
+   ============================================= */
+
+.membership-plan-page {
+  background-color: var(--collection-1-background-color);
+  width: 100%;
+  min-width: 402px;
+  min-height: 874px;
+  position: relative;
+}
+
+.membership-plan-page .rectangle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 402px;
+  height: 102px;
+}
+
+.membership-plan-page .line {
+  position: absolute;
+  top: 101px;
+  left: 0;
+  width: 402px;
+  height: 1px;
+  object-fit: cover;
+}
+
+/* User profile section wrapper */
+.membership-plan-page .user-profile-section {
+  position: absolute;
+  top: 10px;
+  left: 27px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.membership-plan-page .text-wrapper {
+  position: absolute;
+  top: 58px;
+  left: 0;
+  width: 107px;
+  font-family: "Inter-Black", Helvetica;
+  font-weight: 900;
+  color: #000000;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.membership-plan-page .account-profile {
+  width: 50px;
+  height: 50px;
+  background-image: url(./img/rectangle-21.png);
+  background-size: 100% 100%;
+}
+
+.membership-plan-page .membership-tier-ALL {
+  position: absolute;
+  top: 137px;
+  left: 27px;
+  width: 347px;
+  height: 623px;
+}
+
+.membership-plan-page .membership-tiers {
+  position: absolute;
+  width: 100%;
+  height: 30.71%;
+  top: 0;
+  left: 0;
+  background-color: #1869ac;
+  border-radius: 30px;
+}
+
+.membership-plan-page .div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 20px;
+  background: linear-gradient(
+    180deg,
+    rgba(35, 213, 253, 1) 0%,
+    rgba(151, 21, 103, 1) 100%
+  );
+}
+
+.membership-plan-page .text-wrapper-2 {
+  position: absolute;
+  width: 37.81%;
+  height: 19.89%;
+  top: 8.06%;
+  left: 3.84%;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+}
+
+.membership-plan-page .rectangle-2 {
+  position: absolute;
+  width: 92.05%;
+  height: 28.49%;
+  top: 37.10%;
+  left: 3.84%;
+  background-color: #000000;
+  border-radius: 15px;
+}
+
+/* Purchase button — replaces the old div-based text-wrapper-3 */
+.membership-plan-page .text-wrapper-3 {
+  position: absolute;
+  width: 46.58%;
+  height: 17.20%;
+  top: 44.09%;
+  left: 26.85%;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.membership-plan-page .text-wrapper-3:hover {
+  opacity: 0.85;
+}
+
+.membership-plan-page .text-wrapper-3:focus-visible {
+  outline: 2px solid #4a90e2;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+.membership-plan-page .text-wrapper-4 {
+  position: absolute;
+  width: 69.04%;
+  height: 18.82%;
+  top: 74.87%;
+  left: 3.84%;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+}
+
+.membership-plan-page .membership-tiers-2 {
+  top: 34.65%;
+  position: absolute;
+  width: 100%;
+  height: 30.71%;
+  left: 0;
+  background-color: #1869ac;
+  border-radius: 20px;
+}
+
+.membership-plan-page .membership-tiers-3 {
+  top: 69.29%;
+  position: absolute;
+  width: 100%;
+  height: 30.71%;
+  left: 0;
+  background-color: #1869ac;
+  border-radius: 20px;
+}
+
+.membership-plan-page .navigation-menu {
+  position: fixed;
+  top: 795px;
+  left: 0;
+  width: 402px;
+  height: 79px;
+  background-image: url(./img/rectangle-7.svg);
+  background-size: 100% 100%;
+}
+
+.membership-plan-page .user {
+  position: absolute;
+  width: 15.42%;
+  top: 20px;
+  left: 84.58%;
+  height: 40px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.membership-plan-page .tempimagetcfptf {
+  position: absolute;
+  width: 93.53%;
+  top: 20px;
+  left: 6.47%;
+  height: 41px;
+  aspect-ratio: 0.98;
+  object-fit: cover;
+}
+
+.membership-plan-page .loupe {
+  position: absolute;
+  width: 65.92%;
+  top: 19px;
+  left: 34.08%;
+  height: 42px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.membership-plan-page .tempimagejanjv {
+  position: absolute;
+  width: 38.81%;
+  top: 18px;
+  left: 61.19%;
+  height: 42px;
+  aspect-ratio: 0.95;
+  object-fit: cover;
+}
+
+.membership-plan-page .img {
+  position: absolute;
+  width: 100%;
+  height: 101.27%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
