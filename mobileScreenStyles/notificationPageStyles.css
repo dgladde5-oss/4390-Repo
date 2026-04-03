@@ -1,0 +1,786 @@
+.notification-page {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 100%;
+  min-width: 402px;
+  min-height: 874px;
+  display: flex;
+  position: relative;
+}
+
+.notification-page .notification-screen {
+  z-index: 1;
+  margin-top: 101px;
+  width: 402px;
+  height: 924px;
+  position: relative;
+}
+
+.notification-page .notification {
+  position: absolute;
+  width: 100%;
+  height: 8.33%;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+}
+
+.notification-page .rectangle {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-color: var(--collection-1-background-color);
+  position: absolute;
+  left: 0;
+}
+
+.notification-page .div {
+  width: 12.44%;
+  height: 64.94%;
+  top: 12.99%;
+  background-color: #000000;
+  border-radius: 25px;
+  position: absolute;
+  left: 0;
+}
+
+.notification-page .account-name {
+  position: absolute;
+  width: 29.35%;
+  height: 23.38%;
+  top: 18.18%;
+  left: 16.42%;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--collection-1-text-color);
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.notification-page .message-preview {
+  position: absolute;
+  width: 38.31%;
+  height: 32.47%;
+  top: 51.95%;
+  left: 16.42%;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--collection-1-text-color);
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.notification-page .date-newest-oldest {
+  position: absolute;
+  width: 27.61%;
+  height: 24.68%;
+  top: 11.69%;
+  left: 69.90%;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--collection-1-text-color);
+  font-size: 10px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.notification-page .line {
+  position: absolute;
+  width: 100%;
+  height: 0;
+  top: 99.35%;
+  left: 0;
+  object-fit: cover;
+}
+
+.notification-page .notification-2 {
+  top: 33.33%;
+  position: absolute;
+  width: 100%;
+  height: 8.33%;
+  left: 0;
+  background-color: #ffffff;
+}
+
+.notification-page .notification-3 {
+  top: 66.67%;
+  position: absolute;
+  width: 100%;
+  height: 8.33%;
+  left: 0;
+  background-color: #ffffff;
+}
+
+.notification-page .notification-4 {
+  top: 16.67%;
+  position: absolute;
+  width: 100%;
+  height: 8.33%;
+  left: 0;
+  background-color: #ffffff;
+}
+
+.notification-page .notification-5 {
+  top: 50.00%;
+  position: absolute;
+  width: 100%;
+  height: 8.33%;
+  left: 0;
+  background-color: #ffffff;
+}
+
+.notification-page .notification-6 {
+  top: 83.33%;
+  position: absolute;
+  width: 100%;
+  height: 8.33%;
+  left: 0;
+  background-color: #ffffff;
+}
+
+.notification-page .notification-7 {
+  top: 8.33%;
+  position: absolute;
+  width: 100%;
+  height: 8.33%;
+  left: 0;
+  background-color: #ffffff;
+}
+
+.notification-page .notification-8 {
+  top: 41.67%;
+  position: absolute;
+  width: 100%;
+  height: 8.33%;
+  left: 0;
+  background-color: #ffffff;
+}
+
+.notification-page .notification-9 {
+  top: 75.00%;
+  position: absolute;
+  width: 100%;
+  height: 8.33%;
+  left: 0;
+  background-color: #ffffff;
+}
+
+.notification-page .notification-10 {
+  top: 25.00%;
+  position: absolute;
+  width: 100%;
+  height: 8.33%;
+  left: 0;
+  background-color: #ffffff;
+}
+
+.notification-page .notification-11 {
+  top: 58.33%;
+  position: absolute;
+  width: 100%;
+  height: 8.33%;
+  left: 0;
+  background-color: #ffffff;
+}
+
+.notification-page .notification-12 {
+  top: 91.67%;
+  position: absolute;
+  width: 100%;
+  height: 8.33%;
+  left: 0;
+  background-color: #ffffff;
+}
+
+.notification-page .text-wrapper {
+  position: absolute;
+  width: 27.61%;
+  height: 2.06%;
+  top: 0;
+  left: 69.90%;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--collection-1-text-color);
+  font-size: 10px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.notification-page .element {
+  height: 98.92%;
+  top: 0;
+  position: absolute;
+  width: 98.01%;
+  left: 0;
+  object-fit: cover;
+}
+
+.notification-page .img {
+  height: 7.25%;
+  top: 92.75%;
+  position: absolute;
+  width: 98.01%;
+  left: 0;
+  object-fit: cover;
+}
+
+.notification-page .download {
+  height: 90.58%;
+  top: 9.42%;
+  position: absolute;
+  width: 98.01%;
+  left: 0;
+  object-fit: cover;
+}
+
+.notification-page .download-2 {
+  height: 82.25%;
+  top: 17.75%;
+  position: absolute;
+  width: 98.01%;
+  left: 0;
+  object-fit: cover;
+}
+
+.notification-page .internationaltravel {
+  height: 73.92%;
+  top: 26.08%;
+  position: absolute;
+  width: 98.01%;
+  left: 0;
+  object-fit: cover;
+}
+
+.notification-page .internationaltravel-2 {
+  height: 15.58%;
+  top: 84.42%;
+  position: absolute;
+  width: 98.01%;
+  left: 0;
+  object-fit: cover;
+}
+
+.notification-page .download-3 {
+  height: 65.58%;
+  top: 34.42%;
+  position: absolute;
+  width: 98.01%;
+  left: 0;
+  object-fit: cover;
+}
+
+.notification-page .download-4 {
+  height: 23.92%;
+  top: 76.08%;
+  position: absolute;
+  width: 98.01%;
+  left: 0;
+  object-fit: cover;
+}
+
+.notification-page .download-5 {
+  position: absolute;
+  width: 98.01%;
+  height: 57.25%;
+  top: 42.75%;
+  left: 0;
+  object-fit: cover;
+}
+
+.notification-page .download-6 {
+  height: 48.70%;
+  top: 51.30%;
+  position: absolute;
+  width: 98.01%;
+  left: 0;
+  object-fit: cover;
+}
+
+.notification-page .line-2 {
+  position: absolute;
+  width: 98.01%;
+  height: 40.58%;
+  top: 59.42%;
+  left: 0;
+  object-fit: cover;
+}
+
+.notification-page .download-7 {
+  height: 32.25%;
+  top: 67.75%;
+  position: absolute;
+  width: 98.01%;
+  left: 0;
+  object-fit: cover;
+}
+
+.notification-page .logo {
+  position: fixed;
+  top: -1px;
+  left: -1px;
+  width: 404px;
+  height: 103px;
+  z-index: 2;
+  background-color: var(--collection-1-background-color);
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #000000;
+}
+
+.notification-page .text-wrapper-2 {
+  position: absolute;
+  width: 26.49%;
+  height: 33.01%;
+  top: 44.66%;
+  left: 2.97%;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--collection-1-text-color);
+  font-size: 22px;
+  letter-spacing: 2.20px;
+  line-height: normal;
+}
+
+.notification-page .line-3 {
+  position: absolute;
+  width: 70.54%;
+  height: 60.19%;
+  top: 39.81%;
+  left: 29.46%;
+}
+
+.notification-page .navigation-menu {
+  position: fixed;
+  top: 795px;
+  left: 0;
+  width: 402px;
+  height: 79px;
+  z-index: 3;
+  background-image: url(./img/rectangle-7.svg);
+  background-size: 100% 100%;
+}
+
+.notification-page .user {
+  position: absolute;
+  width: 15.42%;
+  top: 20px;
+  left: 84.58%;
+  height: 40px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.notification-page .tempimagetcfptf {
+  position: absolute;
+  width: 93.53%;
+  top: 20px;
+  left: 6.47%;
+  height: 41px;
+  aspect-ratio: 0.98;
+  object-fit: cover;
+}
+
+.notification-page .loupe {
+  position: absolute;
+  width: 65.92%;
+  top: 19px;
+  left: 34.08%;
+  height: 42px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.notification-page .tempimagejanjv {
+  position: absolute;
+  width: 38.81%;
+  top: 18px;
+  left: 61.19%;
+  height: 42px;
+  aspect-ratio: 0.95;
+  object-fit: cover;
+}
+
+.notification-page .line-4 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+/* === Original style.css content injected below === */
+
+.notification-page {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 100%;
+  min-width: 402px;
+  min-height: 874px;
+  display: flex;
+  position: relative;
+}
+
+.notification-page .notification-screen {
+  z-index: 1;
+  margin-top: 101px;
+  width: 402px;
+  height: 924px;
+  position: relative;
+}
+
+/* Base notification article styles */
+.notification-page .notification,
+.notification-page .notification-2,
+.notification-page .notification-3,
+.notification-page .notification-4,
+.notification-page .notification-5,
+.notification-page .notification-6,
+.notification-page .notification-7,
+.notification-page .notification-8,
+.notification-page .notification-9,
+.notification-page .notification-10,
+.notification-page .notification-11,
+.notification-page .notification-12 {
+  position: absolute;
+  width: 100%;
+  height: 8.33%;
+  left: 0;
+  background-color: #ffffff;
+}
+
+.notification-page .notification {
+  top: 0;
+}
+.notification-page .notification-2 {
+  top: 33.33%;
+}
+.notification-page .notification-3 {
+  top: 66.67%;
+}
+.notification-page .notification-4 {
+  top: 16.67%;
+}
+.notification-page .notification-5 {
+  top: 50.00%;
+}
+.notification-page .notification-6 {
+  top: 83.33%;
+}
+.notification-page .notification-7 {
+  top: 8.33%;
+}
+.notification-page .notification-8 {
+  top: 41.67%;
+}
+.notification-page .notification-9 {
+  top: 75.00%;
+}
+.notification-page .notification-10 {
+  top: 25.00%;
+}
+.notification-page .notification-11 {
+  top: 58.33%;
+}
+.notification-page .notification-12 {
+  top: 91.67%;
+}
+
+.notification-page .rectangle {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-color: var(--collection-1-background-color);
+  position: absolute;
+  left: 0;
+}
+
+.notification-page .div {
+  width: 12.44%;
+  height: 64.94%;
+  top: 12.99%;
+  background-color: #000000;
+  border-radius: 25px;
+  position: absolute;
+  left: 0;
+}
+
+.notification-page .account-name {
+  position: absolute;
+  width: 29.35%;
+  height: 23.38%;
+  top: 18.18%;
+  left: 16.42%;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--collection-1-text-color);
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.notification-page .message-preview {
+  position: absolute;
+  width: 38.31%;
+  height: 32.47%;
+  top: 51.95%;
+  left: 16.42%;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--collection-1-text-color);
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin: 0;
+}
+
+.notification-page .date-newest-oldest {
+  position: absolute;
+  width: 27.61%;
+  height: 24.68%;
+  top: 11.69%;
+  left: 69.90%;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--collection-1-text-color);
+  font-size: 10px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.notification-page .line {
+  position: absolute;
+  width: 100%;
+  height: 0;
+  top: 99.35%;
+  left: 0;
+  object-fit: cover;
+}
+
+.notification-page .text-wrapper {
+  position: absolute;
+  width: 27.61%;
+  height: 2.06%;
+  top: 0;
+  left: 69.90%;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--collection-1-text-color);
+  font-size: 10px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+/* Avatar images inside notification articles */
+.notification-page .element {
+  height: 98.92%;
+  top: 0;
+  position: absolute;
+  width: 98.01%;
+  left: 0;
+  object-fit: cover;
+}
+
+.notification-page .img {
+  height: 7.25%;
+  top: 92.75%;
+  position: absolute;
+  width: 98.01%;
+  left: 0;
+  object-fit: cover;
+}
+
+.notification-page .download {
+  height: 90.58%;
+  top: 9.42%;
+  position: absolute;
+  width: 98.01%;
+  left: 0;
+  object-fit: cover;
+}
+
+.notification-page .download-2 {
+  height: 82.25%;
+  top: 17.75%;
+  position: absolute;
+  width: 98.01%;
+  left: 0;
+  object-fit: cover;
+}
+
+.notification-page .internationaltravel {
+  height: 73.92%;
+  top: 26.08%;
+  position: absolute;
+  width: 98.01%;
+  left: 0;
+  object-fit: cover;
+}
+
+.notification-page .internationaltravel-2 {
+  height: 15.58%;
+  top: 84.42%;
+  position: absolute;
+  width: 98.01%;
+  left: 0;
+  object-fit: cover;
+}
+
+.notification-page .download-3 {
+  height: 65.58%;
+  top: 34.42%;
+  position: absolute;
+  width: 98.01%;
+  left: 0;
+  object-fit: cover;
+}
+
+.notification-page .download-4 {
+  height: 23.92%;
+  top: 76.08%;
+  position: absolute;
+  width: 98.01%;
+  left: 0;
+  object-fit: cover;
+}
+
+.notification-page .download-5 {
+  position: absolute;
+  width: 98.01%;
+  height: 57.25%;
+  top: 42.75%;
+  left: 0;
+  object-fit: cover;
+}
+
+.notification-page .download-6 {
+  height: 48.70%;
+  top: 51.30%;
+  position: absolute;
+  width: 98.01%;
+  left: 0;
+  object-fit: cover;
+}
+
+.notification-page .line-2 {
+  position: absolute;
+  width: 98.01%;
+  height: 40.58%;
+  top: 59.42%;
+  left: 0;
+  object-fit: cover;
+}
+
+.notification-page .download-7 {
+  height: 32.25%;
+  top: 67.75%;
+  position: absolute;
+  width: 98.01%;
+  left: 0;
+  object-fit: cover;
+}
+
+/* Header / Logo */
+.notification-page .logo {
+  position: fixed;
+  top: -1px;
+  left: -1px;
+  width: 404px;
+  height: 103px;
+  z-index: 2;
+  background-color: var(--collection-1-background-color);
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #000000;
+}
+
+.notification-page .text-wrapper-2 {
+  position: absolute;
+  width: 26.49%;
+  height: 33.01%;
+  top: 44.66%;
+  left: 2.97%;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--collection-1-text-color);
+  font-size: 22px;
+  letter-spacing: 2.20px;
+  line-height: normal;
+  margin: 0;
+}
+
+.notification-page .line-3 {
+  position: absolute;
+  width: 70.54%;
+  height: 60.19%;
+  top: 39.81%;
+  left: 29.46%;
+}
+
+/* Bottom Navigation */
+.notification-page .navigation-menu {
+  position: fixed;
+  top: 795px;
+  left: 0;
+  width: 402px;
+  height: 79px;
+  z-index: 3;
+  background-image: url(./img/rectangle-7.svg);
+  background-size: 100% 100%;
+}
+
+.notification-page .user {
+  position: absolute;
+  width: 15.42%;
+  top: 20px;
+  left: 84.58%;
+  height: 40px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.notification-page .tempimagetcfptf {
+  position: absolute;
+  width: 93.53%;
+  top: 20px;
+  left: 6.47%;
+  height: 41px;
+  aspect-ratio: 0.98;
+  object-fit: cover;
+}
+
+.notification-page .loupe {
+  position: absolute;
+  width: 65.92%;
+  top: 19px;
+  left: 34.08%;
+  height: 42px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.notification-page .tempimagejanjv {
+  position: absolute;
+  width: 38.81%;
+  top: 18px;
+  left: 61.19%;
+  height: 42px;
+  aspect-ratio: 0.95;
+  object-fit: cover;
+}
+
+.notification-page .line-4 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
