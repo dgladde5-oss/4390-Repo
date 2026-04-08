@@ -316,7 +316,7 @@ body {
 }
 
 /**DESKTOP*/
-@media (min-width: 1400px){
+@media (min-width: 800px){
 
     .app-container {
     max-width: none;
